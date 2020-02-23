@@ -10,7 +10,7 @@ cd /usr/lib/hadoop-mapreduce
 yarn jar hadoop-mapreduce-examples.jar wordcount /test1/ss4.txt /test2/
 
 
-////////////////////////
+///////////////////////
 
 
 javac -cp `hadoop classpath` WordCount.java
