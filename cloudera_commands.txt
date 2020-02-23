@@ -10,7 +10,8 @@ cd /usr/lib/hadoop-mapreduce
 yarn jar hadoop-mapreduce-examples.jar wordcount /test1/ss4.txt /test2/
 
 
-/////////////////////////
+////////////////////////
+
 
 javac -cp `hadoop classpath` WordCount.java
 
@@ -63,7 +64,6 @@ hadoop jar /usr/hdp/current/hadoop-mapreduce-client/hadoop-streaming.jar -file .
 
 
 hadoop jar /usr/lib/hadoop-mapreduce/hadoop-streaming.jar -file ./mapper.py -mapper ./mapper.py -file ./reducer.py -reducer ./reducer.py -input /test6/vv.txt -output /test8
-
 
 
 
