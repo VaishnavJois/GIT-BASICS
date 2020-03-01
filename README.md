@@ -10,3 +10,7 @@
 ## Create custom branch
 #### git checkout -b <BRANCH_NAME>
 #### git push <REMOTE_NAME> <BRANCH_NAME>
+
+
+## Unstage commit
+#### git reset HEAD^
