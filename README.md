@@ -23,11 +23,17 @@
 #
 ### git push -u origin master
 
-## 
+## creating branch in git
+### git pull
+### git checkout <branch name>
+## make changes 
+### git commit -m "msg"
+### git push 
 
-
-
-
+### compare & pull request
+### pull request
+### merge pull request
+### changes reflected to master
 
 
 ## Make .gitignore file.
