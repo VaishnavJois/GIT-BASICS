@@ -22,7 +22,7 @@
 
 #
 ### git push -u origin master
-
+#### -u = upstream so next time when you use 'git push', it defaults to git push origin master
 ## creating branch in git
 ### git pull
 ### git checkout <branch name>
